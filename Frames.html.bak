@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--<title> Responsiive Admin Dashboard | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="https://cdn.syncfusion.com/ej2/material.css" /> 
+	  <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js"></script>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+<frameset cols="250, *">
+<frame src="dash5.html" />
+    <frameset rows=" *">
+         <frame src="staff5.html" name="main" />
+		 <frame src="staff5.html" name="Dash" />
+    </frameset>
+</frameset>
+
+</html>

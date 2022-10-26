@@ -1,0 +1,50 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-4.5.2-dist/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="css/bootstrap-4.5.2-dist/bootstrap-4.5.2-dist/js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="css/bootstrap-4.5.2-dist/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+    <meta name="viewport"content="width=device-width,inital-scale=1">
+ <!----FONT AWESOME CDN--->
+ <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="css/yamini.css">
+ <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kanit&family=Pangolin&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+{
+background-image:url('background.jpg');>
+}
+</style>
+<center>
+<body>
+<img src="D:\ExamSittingArrangement\img\background.jpg" width="400px" height="400px"> 
+
+<form>
+		<center>
+		<div class="card justify-content-center" style="width:15rem;background-color:#FBEFF2;margin-top:2%; margin-bottom:5%; padding:2%;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">
+<b><center><h2>Student Login</h2></center></b><br>
+    <label for="email"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="email" id="email" required><br><br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br/>
+
+		<input type="checkbox" id="vehicle1" name="vehicle1" value="me">
+         <label for="vehicle1"> Remember me</label><br/><br><br>
+		<button type="button" onclick="validate()" class="btn" style="background-color: #64B4E4">submit</button>
+
+</div>
+</center>
+</form>
+</center>
+<script>
+function validate() {
+  alert("Welcome to GeeksforGeeks.\n " +
+                "It is the best portal for computer" + 
+                         "science enthusiasts!");
+					}
+</script>
+</html>

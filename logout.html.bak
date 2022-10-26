@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>log out</title>
+	<link rel="icon" type="image/png" href="image/website_logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-4.5.2-dist/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="css/bootstrap-4.5.2-dist/bootstrap-4.5.2-dist/js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="css/bootstrap-4.5.2-dist/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+    <meta name="viewport"content="width=device-width,inital-scale=1">
+ <!----FONT AWESOME CDN--->
+ <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="css/yamini.css">
+ <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kanit&family=Pangolin&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card{
+margin-left:auto;
+margin-right:auto;
+margin-bottom:auto;
+margin-top:100px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+</style>
+<body><center>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Log out</h5><br>
+    <h6 class="card-subtitle mb-2 text-muted"></h6>
+    <p class="card-text">Are u sure to logout ...?</p><br>
+    <a type="button" href="dash1.html" class="card-link"style="background-color:green;border-color:green;color:white;">Cancel</a>
+    <a  type="button" href="#" class="card-link"style="background-color:red;border-color:red;color:white">Log out</a>
+  </div>
+</div>
+</body>
+</center>
+</html>
